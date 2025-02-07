@@ -1,8 +1,11 @@
-#define PIX_blu 0x00303F //Bright Purple
-#define PIX_yel 0x001500 //Red
-#define PIX_whi 0x15153F //Cyan
+#define PIX_blu 0x00F8FF
+#define PIX_yel 0x007F00
+#define PIX_whi 0x7F0000
 
-#define PIX_b 0x00153F //Dark Purple
+#define PIX_pur 0x00F8FF 
+#define PIX_purb 0x01363F
+
+#define PIX_b 0x01363F
 
 void put_pixel(uint32_t pixel_grb);
 
