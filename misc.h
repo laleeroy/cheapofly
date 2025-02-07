@@ -1,6 +1,6 @@
-#define PIX_blu 0x01363F //purple
-#define PIX_yel 0x001500 //cyan
-#define PIX_whi 0x15153F //red
+#define PIX_blu 0x00F8FF
+#define PIX_yel 0x007F00
+#define PIX_whi 0x7F0000
 
 #define PIX_b 0x00000F
 
