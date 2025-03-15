@@ -1,6 +1,7 @@
 #define PIX_blu 0x00003F
 #define PIX_red 0x001500
 #define PIX_whi 0x111111
+#define PIX_cya 0x00003F
 #define PIX_pur 0x00F8FF
 #define PIX_purb 0x01363F
 

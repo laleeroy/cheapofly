@@ -79,7 +79,7 @@ void halt_with_error(uint32_t err, uint32_t bits)
             sleep_ms(is_long ? LONG_PAUSE_TIME : SHORT_PAUSE_TIME);
             bool success = bits == 1 && is_long == 0;
             if (success)
-                put_pixel(PIX_whi);
+                put_pixel(PIX_cya);
             else
                 put_pixel(PIX_red);
             sleep_ms(is_long ? LONG_TIME : success ? SHORT_TIME * 2 : SHORT_TIME);
